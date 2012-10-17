@@ -35,4 +35,6 @@ map tm :tabm<Space>
 nmap tc :tabclose<cr>
 
 map <C-s> :w<CR>
-imap <C-s> <Esc>:w<CR>i
+imap <C-s> <Esc>:w<CR>
+au! BufRead,BufNewFile *.js.php set filetype=javascript 
+
