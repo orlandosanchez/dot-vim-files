@@ -214,3 +214,6 @@ snippet fun
 # $... = array (...)
 snippet array
 	$${1:arrayName} = array('${2}' => ${3});${4}
+
+snippet perror_log
+	error_log( var_export( ${1}, true ) );

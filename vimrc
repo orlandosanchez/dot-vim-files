@@ -1,6 +1,13 @@
 colorscheme wombat
+call pathogen#infect()
+
+"set background=dark
+"let g:solarized_termcolors=16
+"colorscheme solarized
+
 set expandtab
 set tabstop=2
+set backspace=2
 set shiftwidth=2
 set autoindent
 set smartindent
@@ -10,7 +17,7 @@ syntax enable
 set ruler
 set mouse=a
 set nobackup
-
+set foldmethod=marker
 set wildmode=longest,list,full
 set wildmenu
 
@@ -29,4 +36,3 @@ nmap tc :tabclose<cr>
 
 map <C-s> :w<CR>
 imap <C-s> <Esc>:w<CR>i
-
