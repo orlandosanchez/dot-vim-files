@@ -13,6 +13,7 @@ set autoindent
 set smartindent
 set nowrap
 set nu
+set foldmethod=marker
 syntax enable
 set ruler
 set mouse=a
