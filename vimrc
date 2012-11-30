@@ -21,7 +21,6 @@ set foldmethod=marker
 set wildmode=longest,list,full
 set wildmenu
 
-
 :map <F5> :setlocal spell! spelllang=en_us<cr> 
 :map <F6> :TlistToggle<cr>
 
@@ -36,5 +35,9 @@ nmap tc :tabclose<cr>
 
 map <C-s> :w<CR>
 imap <C-s> <Esc>:w<CR>
-au! BufRead,BufNewFile *.js.php set filetype=javascript 
+
+au! BufRead,BufNewFile *.js.php set filetype=javascript
+au! BufRead,BufNewFile *.ctp set filetype=php
+
+
 
