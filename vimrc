@@ -41,4 +41,6 @@ au! BufRead,BufNewFile *.js.php set filetype=javascript
 au! BufRead,BufNewFile *.ctp set filetype=php
 
 
+:map <F5> :setlocal spell! spelllang=en_us<cr> 
+:map <F6> :TlistToggle<cr>
 
