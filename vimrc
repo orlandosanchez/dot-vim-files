@@ -41,4 +41,5 @@ au! BufRead,BufNewFile *.js.php set filetype=javascript
 au! BufRead,BufNewFile *.ctp set filetype=php
 
 
+let Tlist_Ctags_Cmd = "/usr/bin/ctags"
 
