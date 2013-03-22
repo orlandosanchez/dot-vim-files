@@ -42,4 +42,11 @@ au! BufRead,BufNewFile *.ctp set filetype=php
 
 
 let Tlist_Ctags_Cmd = "/usr/bin/ctags"
+:map <F5> :setlocal spell! spelllang=en_us<cr> 
+:map <F6> :TlistToggle<cr>
 
+let g:vimclojure#HighlightBuiltins = 1
+let g:vimclojure#ParenRainbow = 1
+
+autocmd BufRead *.vala,*.vapi set efm=%f:%l.%c-%[%^:]%#:\ %t%[%^:]%#:\ %m
+au BufRead,BufNewFile *.vala,*.vapi setfiletype vala
