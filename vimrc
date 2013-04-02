@@ -1,9 +1,7 @@
 colorscheme wombat
-call pathogen#infect()
 
-"set background=dark
-"let g:solarized_termcolors=16
-"colorscheme solarized
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
 
 set expandtab
 set tabstop=2
@@ -50,3 +48,12 @@ let g:vimclojure#ParenRainbow = 1
 
 autocmd BufRead *.vala,*.vapi set efm=%f:%l.%c-%[%^:]%#:\ %t%[%^:]%#:\ %m
 au BufRead,BufNewFile *.vala,*.vapi setfiletype vala
+
+
+Bundle 'gmarik/vundle'
+Bundle 'motemen/git-vim'
+Bundle 'ervandew/supertab'
+Bundle 'kien/ctrlp.vim'
+Bundle 'taglist.vim'
+Bundle 'VimClojure'
+Bundle 'scooloose/nerdtree'
