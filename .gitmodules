@@ -1,0 +1,26 @@
+[submodule "bundle/vundle"]
+  path = bundle/vundle
+  url = github.com/gmarik/vundle.git
+[submodule "bundle/git-vim"]
+  path = bundle/git-vim
+  url = git://github.com/motemen/git-vim.git
+[submodule "bundle/supertab"]
+  path = bundle/supertab
+  url = git://github.com/ervandew/supertab.git
+[submodule "bundle/ctrlp.vim"]
+  path = bundle/ctrlp.vim
+  url = git://github.com/kein/ctrlp.vim.git
+[submodule "bundle/taglist.vim"]
+  path = bundle/taglist.vim
+  url = git://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/vimClojure"]
+  path = bundle/vimClojure
+  url = git://github.com/vim-scripts/vimClojure.git
+[submodule "bundle/nerdtree"]
+  path = bundle/nerdtree
+  url = git://github.com/scooloose/nerdtree.git
+[submodule "bundle/gist-vim"]
+  path = bundle/gist-vim
+  url = git://github.com/mattn/gist-vim.git
+
+
