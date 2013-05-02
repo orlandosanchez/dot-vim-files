@@ -13,6 +13,9 @@
 [submodule "bundle/taglist.vim"]
   path = bundle/taglist.vim
   url = git://github.com/vim-scripts/taglist.vim.git
+[submodule "bundle/paredit.vim"]
+  path = bundle/paredit.vim
+  url = git://github.com/vim-scripts/paredit.vim.git
 [submodule "bundle/VimClojure"]
   path = bundle/VimClojure
   url = git://github.com/vim-scripts/VimClojure.git
