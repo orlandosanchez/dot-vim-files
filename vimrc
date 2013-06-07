@@ -16,6 +16,7 @@ syntax enable
 set ruler
 set mouse=a
 set nobackup
+set noswapfile 
 set foldmethod=marker
 set wildmode=longest,list,full
 set wildmenu
